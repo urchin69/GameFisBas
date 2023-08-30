@@ -29,22 +29,18 @@ namespace GameFisBas
                     if ((number % 3 == 0) && (number % 5 == 0))
                     {
                         mesText = "FisBas";
-                        //return mesText;
                     }
                     else if (!(number % 3 == 0) && !(number % 5 == 0))
                     {
                         mesText = number.ToString();
-                        //return mesText;
                     }
                     else if (number % 3 == 0)
                     {
                         mesText = "Fis";
-                        //return mesText;
                     }
                     else if( number % 5 == 0)
                     {
                         mesText = "Bas";
-                        //return mesText;
                     }
 
                     return mesText;
