@@ -10,7 +10,7 @@ namespace GameFisBas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" Podaj liczbę całkowitą, program określi!");
+            Console.WriteLine(" Podaj liczbę całkowitą!");
             var number = FisBas.GetNumber();
             Console.WriteLine(number);
         }
