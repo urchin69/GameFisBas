@@ -36,7 +36,6 @@ namespace GameFisBas
                         mesText = number.ToString();
                         return mesText;
                     }
-
                     else if (number % 3 == 0)
                     {
                         mesText = "Fis";
@@ -49,12 +48,6 @@ namespace GameFisBas
                     }
                 }
             }
-
-    
         }
-
-
-
-
     }
 }
